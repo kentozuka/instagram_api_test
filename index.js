@@ -6,3 +6,5 @@ async function main () {
   if (status === 200) return console.log(data)
   else return console.log({ error: 'failed to load the page', status })
 }
+
+main()
